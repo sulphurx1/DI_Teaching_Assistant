@@ -1,0 +1,5 @@
+DATABASE = 'restaurant'
+PASSWORD = 'test'
+USER = 'postgres'
+HOST = 'localhost'
+PORT = '5432'
