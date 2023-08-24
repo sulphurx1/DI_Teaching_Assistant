@@ -22,6 +22,7 @@ class MenuItem:
         self.price = price
 
     def save(self):
+        
         query = f"""INSERT INTO menu_items (item_name, item_price) VALUES ('{self.name}', '{self.price}')"""
         cursor.execute(query)
         connection.commit()

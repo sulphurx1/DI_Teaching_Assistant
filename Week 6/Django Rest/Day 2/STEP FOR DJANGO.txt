@@ -1,0 +1,39 @@
+# step to initialize django project
+
+STEP 1:
+create virtual environment
+
+python -m venv "name of venv"
+
+example: python -m venv myvenv
+
+
+STEP 2:
+Activate the virtual environment
+
+"name of venv"\Scripts\activate	- Windows
+
+source "name of venv"/bin/activate	- MacOS
+
+
+STEP 3:
+Install Django
+
+pip install django
+
+
+STEP 4:
+Create Django Project
+
+django-admin startproject "name of the project"
+
+
+STEP 5:
+Create Django APP
+
+navigate to project folder
+cd "name of the project"
+
+python manage.py startapp "name of the app"
+
+** do not forget to create "urls.py" in app directory **
